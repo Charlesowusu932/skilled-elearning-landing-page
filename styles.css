@@ -14,8 +14,15 @@ body {
 
 #desktop {
     width: 1440px;
-    height: 1845px;
+    height: 1725px;
     background-color: aqua;
+}
+
+#desktop-base {
+    width: 1440px;
+    height: 120px;
+    background-color: rgb(14, 69, 219);
+    margin-top: 1720px;
 }
 
 
@@ -25,16 +32,37 @@ body {
     background-color: rgba(41, 196, 7, 0.771);
 }
 
+#desktop-active-base {
+    width: 1440px;
+    height: 120px;
+    background-color: rgb(14, 69, 219);
+    margin-top: 1720px;
+}
+
 
 #tablet {
     width: 768px;
-    height: 1760px;
+    height: 1640px;
     background-color: aqua;
+}
+
+#tablet-base {
+    width: 768px;
+    height: 120px;
+    background-color: rgb(14, 69, 219);
+    margin-top: 1640px;
 }
 
 
 #mobile {
     width: 375px;
-    height: 2615px;
+    height: 2495px;
     background-color: rgb(17, 234, 234);
+}
+
+#mobile-base {
+    width: 375px;
+    height: 120px;
+    background-color: rgb(14, 69, 219);
+    margin-top: 2495px;
 }
