@@ -1,0 +1,40 @@
+body {
+    padding-top: 100px;
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+}
+
+
+#main-container {
+    display: grid;
+    grid-template-columns: 1500px 1500px 800px 380px;
+    grid-gap: 20px;
+}
+
+
+#desktop {
+    width: 1440px;
+    height: 1845px;
+    background-color: aqua;
+}
+
+
+#desktop-active {
+    width: 1440px;
+    height: 1845px;
+    background-color: rgba(41, 196, 7, 0.771);
+}
+
+
+#tablet {
+    width: 768px;
+    height: 1760px;
+    background-color: aqua;
+}
+
+
+#mobile {
+    width: 375px;
+    height: 2615px;
+    background-color: rgb(17, 234, 234);
+}
