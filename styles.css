@@ -1,29 +1,69 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
     padding-top: 100px;
     padding-left: 200px;
     background-color: #F2F2F2;
-    font-family: sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 
 #main-container {
-    display: grid;
-    grid-template-columns: 1500px 1500px 800px 380px;
-    grid-gap: 20px;
-}
-
-
-#desktop {
+    position: relative;
     width: 1440px;
     height: 1725px;
     background-color: aqua;
 }
 
+#desktop {
+    position:absolute;
+    width: 1440px;
+    height: 888px;
+    background: linear-gradient(180deg, #FFFFFF 21.62%, #F0F1FF 121.62%);
+    top: 46%;
+}
+
+#desktop-up-logo-test-img {
+    width: 111.17px;
+    height: 27.68px;
+    position: absolute;
+    top: 1.5%;
+    left: 10%;
+}
+
+#desktop-up-test-button {
+    Width: 167px;
+    Height: 56px;
+    position:absolute;
+    margin-top: 24px;
+    margin-left: 1108px;
+    font-size: 18px;
+    color:#ffffff;
+    background-color: black;
+    border-style: none;
+    border-radius: 40px;
+    }
+
+    #image-hero {
+        width: 991.63px;
+        height: 936.92px;
+        position:absolute;
+        right: 0;
+        top: -10%;
+        overflow: hidden;
+        border: none;
+    }
+
 #desktop-base {
     width: 1440px;
     height: 120px;
     background-color: #13183f;
-    margin-top: 1720px;
+    position:absolute;
+    bottom: 0;
 }
 
 #desktop-base-test {
@@ -54,137 +94,8 @@ body {
     left: 85%;
 }
 
+
+
+
 /**********************************************************************************************************************************************/
 
-#desktop-active {
-    width: 1440px;
-    height: 1725px;
-    background-color: rgba(41, 196, 7, 0.771);
-}
-
-#desktop-active-base {
-    width: 1440px;
-    height: 120px;
-    background-color: #13183f;
-    margin-top: 1720px;
-}
-
-#desktop-active-base-test {
-    width: 1109.21px;
-    height: 56px;
-    background-color: #13183f;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 150px;
-}
-
-#desktop-active-base-test-img {
-    margin-top: 12px;
-     width: 111.17px;
-     height: 27.68px;
-}
-
-#desktop-active-base-test-button {
-    width: 167px;
-    height: 56px;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffffff;
-    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-    border-style: none;
-    border-radius: 40px;
-    position: absolute;
-    left: 85%;
-}
-
-#desktop-active-base-test-button:hover {
-    cursor: pointer;
-
-
-}
-
-/************************************************************************************************************************/
-
-
-#tablet {
-    width: 768px;
-    height: 1640px;
-    background-color: aqua;
-}
-
-#tablet-base {
-    width: 768px;
-    height: 120px;
-    background-color: #13183f;
-    margin-top: 1640px;
-}
-
-#tablet-base-test {
-    width: 689px;
-    height: 48px;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 40px;
-}
-
-#tablet-base-test-img {
-    margin-top: 7px;
-     width: 89px;
-     height: 35px;
-}
-
-#tablet-base-test-button {
-    width: 140px;
-    height: 48px;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffffff;
-    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-    border-style: none;
-    border-radius: 40px;
-    position: absolute;
-    margin-left: 460px;
-}
-
-/*******************************************************************************************************************************/
-
-
-#mobile {
-    width: 375px;
-    height: 2495px;
-    background-color: rgb(17, 234, 234);
-}
-
-#mobile-base {
-    width: 375px;
-    height: 120px;
-    background-color: #13183f;
-    margin-top: 2495px;
-}
-
-#mobile-base-test {
-    width: 343px;
-    height: 48px;
-    margin-top: 40px;
-    margin-left: 17px;
-    position: absolute;
-}
-
-#mobile-base-test-img {
-    margin-top: 7px;
-     width: 89px;
-     height: 35px;
-}
-
-#mobile-base-test-button {
-    width: 140px;
-    height: 48px;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffffff;
-    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-    border-style: none;
-    border-radius: 40px;
-    position: absolute;
-    margin-left: 117px;
-}
