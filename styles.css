@@ -7,7 +7,7 @@
 body {
     padding-top: 100px;
     padding-left: 200px;
-    background-color: #FFFFFF;
+    background-color: #f2f2f2;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -17,7 +17,8 @@ body {
     position: relative;
     width: 1440px;
     height: 1725px;
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
+    overflow: hidden;
 }
 
 #desktop {
@@ -25,7 +26,8 @@ body {
     width: 1440px;
     height: 888px;
     background: linear-gradient(180deg, #FFFFFF 21.62%, #F0F1FF 121.62%);
-    top: 46%;
+    top: 34%;
+    left: 25%;
 }
 
 #desktop-up-logo-test-img {
@@ -111,9 +113,9 @@ body {
         display: grid;
         grid-template-columns: 380px 380px 380px;
         grid-gap: 20px;
-        grid-row-gap: 50px;
+        grid-row-gap: 80px;
         position: absolute;
-        bottom: 15%;
+        bottom: 12%;
         left: 11%;
     }
 
@@ -142,6 +144,8 @@ body {
         background-color: #FFFFFF;
         width: 375.23px;
         height: 346px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 15px;
     }
 
 
@@ -151,6 +155,7 @@ body {
         display: block;
         position: absolute;
         top: -3%;
+        margin-left: 19px;
     }
 
     h3 {
@@ -174,7 +179,7 @@ body {
 
     }
 
-    #mini-text {
+    #mini-text-1 {
         color: #F74780;
         font-size: 18px;
         font-weight: 700;
@@ -185,39 +190,210 @@ body {
     
 
     #box3 {
-        background-color: aqua;
+        background-color: #FFFFFF;
         width: 375.23px;
         height: 346px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 15px;
     }
+
+    #box3-image {
+        width: 60.04px;
+        height: 56px;
+        display: block;
+        position: absolute;
+        top: -3%;
+        margin-left: 19px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30.24px;
+        margin-top: 64px;
+        margin-left: 35px;
+    }
+
+    #box3-div3 {
+        position: absolute;
+        top: 15%;
+        margin-left: 35px;
+        width: 306.61px;
+        height: 112px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(131, 134, 154, 1);
+
+    }
+
+    #mini-text-2 {
+        color: #F74780;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 52px;
+    }
+
+
+
 
     #box4 {
-        background-color: aqua;
+        background-color: #FFFFFF;
         width: 375.23px;
         height: 346px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 15px;
     }
+
+    
+    #box4-image {
+        width: 60.04px;
+        height: 56px;
+        display: block;
+        position: relative;
+        top: -7%;
+        margin-left: 19px;
+    }
+
+    #creativity {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30.24px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    #box4-div4 {
+        position: absolute;
+        top: 73%;
+        margin-left: 35px;
+        width: 306.61px;
+        height: 112px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(131, 134, 154, 1);
+
+    }
+
+    #mini-text-3 {
+        color: #F74780;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 52px;
+    }
+
+
 
     #box5 {
-        background-color: aqua;
+        background-color: #FFFFFF;
         width: 375.23px;
         height: 346px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 15px;
     }
+
+    #box5-image {
+        width: 60.04px;
+        height: 56px;
+        display: block;
+        position: relative;
+        top: -7%;
+        margin-left: 19px;
+    }
+
+    #creativity {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30.24px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    #box5-div5 {
+        position: absolute;
+        top: 73%;
+        margin-left: 35px;
+        width: 306.61px;
+        height: 112px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(131, 134, 154, 1);
+
+    }
+
+    #mini-text-4 {
+        color: #F74780;
+        position: absolute;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 25px;
+    }
+
+
 
     #box6 {
-        background-color: aqua;
+        background-color: #FFFFFF;
         width: 375.23px;
         height: 346px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 15px;
+    }
+
+    #box6-image {
+        width: 60.04px;
+        height: 56px;
+        display: block;
+        position: relative;
+        top: -7%;
+        margin-left: 19px;
+    }
+
+    #creativity {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30.24px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    #box6-div6 {
+        position: absolute;
+        top: 73%;
+        margin-left: 35px;
+        width: 306.61px;
+        height: 112px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(131, 134, 154, 1);
+
+    }
+
+    #mini-text-5 {
+        color: #F74780;
+        position: absolute;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 25px;
     }
 
 
-#desktop-base {
+    #desktop-base {
     width: 1440px;
     height: 120px;
     background-color: #13183f;
     position:absolute;
-    bottom: 0;
-}
+    left: -13.5%;
+    bottom: -45%;
+    }
 
-#desktop-base-test {
+    #desktop-base-test {
     width: 1109.21px;
     margin: auto;
     height: 56px;
@@ -226,13 +402,13 @@ body {
     margin-left: 150px;
 }
 
-#desktop-base-test-img {
+    #desktop-base-test-img {
     margin-top: 12px;
      width: 111.17px;
      height: 27.68px;
-}
+    }
 
-#desktop-base-test-button {
+    #desktop-base-test-button {
     width: 167px;
     height: 56px;
     font-size: 18px;
@@ -243,11 +419,13 @@ body {
     border-radius: 40px;
     position: absolute;
     left: 85%;
-}
+    }   
 
 
 
 
 /**********************************************************************************************************************************************/
+
+
 
 
