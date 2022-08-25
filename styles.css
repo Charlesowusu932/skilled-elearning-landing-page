@@ -430,8 +430,8 @@ body {
 
         /*****************************************************************************************/
         /*desktop-base*/
-        @media (max-width: 1440px) and (min-width: 1250px) {
-            #desktop-base-test-button:hover {
+        @media (max-width: 1440px) and (min-width: 1250px) and (hover:hover) {
+            #desktop-base-test-button {
                 background-color: green;
                 cursor: pointer;
             }
