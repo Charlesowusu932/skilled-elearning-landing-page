@@ -424,13 +424,18 @@ body {
 
 
      /*@desktop-active-mode*/
-@media screen and (max-width: 1400px) and (min-width: 1250px) {
-    
-}
-
-
-
+    #desktop-up-test-button:hover {
+        color: #fff;
+        cursor: pointer;
+        background-color:#333;
         
+        }
+
+
+
+    
+
+
  /*@tablet-mode*/
 @media screen and (max-width: 770px) {
     #main-container {
