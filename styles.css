@@ -423,6 +423,12 @@ body {
     }   
 
 
+     /*@desktop-active-mode*/
+@media screen and (max-width: 1400px) and (min-width: 1250px) {
+    
+}
+
+
 
         
  /*@tablet-mode*/
