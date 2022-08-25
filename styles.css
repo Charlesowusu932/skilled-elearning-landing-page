@@ -424,13 +424,8 @@ body {
 
 
 
-            #desktop-base-test-img {
-                cursor: pointer;
-            }
-        }
-
-/**********************************************************************************************************************************************/
-
+        
+ /*@tablet-mode*/
 @media screen and (max-width: 770px) {
     #main-container {
     margin: auto;
@@ -972,6 +967,296 @@ body {
                 bottom: 35%;
                 position: absolute;
             }
+
+
+            #box2 {
+                background-color: #FFFFFF;
+                width: 343px;
+                height: 259px;
+                box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+                border-radius: 15px;
+            }
+        
+        
+            #box2-image {
+                width: 56px;
+                height: 56px;
+                display: block;
+                position: absolute;
+                top: -3%;
+                margin-left: 19px;
+            }
+        
+            h3 {
+                color: #13183F;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 25.2px;
+                margin-left: 32px;
+                position: absolute;
+                top: -2%;
+            }
+        
+            #box2-div2 {
+                position: absolute;
+                top: 6%;
+                margin-left: 32px;
+                width: 286px;
+                height: 78px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                color: #83869A;
+        
+            }
+        
+            #mini-text-1 {
+                color: #F74780;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 26px;
+                margin-top: 24px;
+            }
+
+            #box3 {
+                background-color: #FFFFFF;
+                width: 343px;
+                height: 259px;
+                box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+                border-radius: 15px;
+                position: absolute;
+                top: 25%;
+            }
+
+            #box3-image {
+                width: 56px;
+                height: 56px;
+                position: relative;
+                bottom: 42%;
+                margin-left: 19px;
+            }
+
+            #box3-test {
+                color: #13183F;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 25.2px;
+                margin-left: 32px;
+                position: absolute;
+                top: -2%;
+            }
+
+            #box3-div3 {
+                position: absolute;
+                top: 40%;
+                margin-left: 32px;
+                width: 286px;
+                height: 78px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                color: #83869A;
+
+            }
+
+            #mini-text-2 {
+                color: #F74780;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                margin-top: 24px;
+            }
+
+            #box4 {
+                background-color: #FFFFFF;
+                width: 343px;
+                height: 259px;
+                box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+                border-radius: 15px;
+                position: absolute;
+                top: 48%;
+            }
+
+            #box4-image {
+                width: 56px;
+                height: 56px;
+                position: relative;
+                bottom: 42%;
+                margin-left: 19px;
+            }
+
+            #box4-test {
+                color: #13183F;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 25.2px;
+                margin-left: 32px;
+                position: absolute;
+                top: 9%;
+            }
+
+            #box4-div4 {
+                position: absolute;
+                top: 40%;
+                margin-left: 32px;
+                width: 286px;
+                height: 78px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                color: #83869A;
+
+            }
+
+            #mini-text-2 {
+                color: #F74780;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                margin-top: 24px;
+            }
+
+
+
+            #box5 {
+                background-color: #FFFFFF;
+                width: 343px;
+                height: 259px;
+                box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+                border-radius: 15px;
+                position: absolute;
+                top: 70%;
+            }
+
+            #box5-image {
+                width: 56px;
+                height: 56px;
+                position: relative;
+                bottom: 42%;
+                margin-left: 19px;
+            }
+
+            #box5-test {
+                color: #13183F;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 25.2px;
+                margin-left: 32px;
+                position: absolute;
+                top: 9%;
+            }
+
+            #box5-div5 {
+                position: absolute;
+                top: 40%;
+                margin-left: 32px;
+                width: 286px;
+                height: 78px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                color: #83869A;
+
+            }
+
+            #mini-text-2 {
+                color: #F74780;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                margin-top: 24px;
+            }
+
+
+
+            #box6 {
+                background-color: #FFFFFF;
+                width: 343px;
+                height: 259px;
+                box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+                border-radius: 15px;
+                position: absolute;
+                top: 93%;
+            }
+
+            #box6-image {
+                width: 56px;
+                height: 56px;
+                position: relative;
+                bottom: 42%;
+                margin-left: 19px;
+            }
+
+            #box6-test {
+                color: #13183F;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 25.2px;
+                margin-left: 32px;
+                position: absolute;
+                top: 9%;
+            }
+
+            #box6-div6 {
+                position: absolute;
+                top: 40%;
+                margin-left: 32px;
+                width: 286px;
+                height: 78px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                color: #83869A;
+
+            }
+
+            #mini-text-2 {
+                color: #F74780;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                margin-top: 24px;
+            }
+
+
+            #desktop-base {
+                width: 375px;
+                height: 120px;
+                background-color: #13183f;
+                position:absolute;
+                left: -3.5%;
+                bottom:-24%;
+                }
+            
+                #desktop-base-test {
+                width: 343px;
+                margin: auto;
+                height: 48px;
+                position: absolute;
+                margin-top: 35px;
+                margin-left: 100px;
+            }
+            
+                #desktop-base-test-img {
+                margin-top: 12px;
+                 width: 89px;
+                 height: 35px;
+                }
+            
+                #desktop-base-test-button {
+                width: 140px;
+                height: 48px;
+                font-size: 18px;
+                line-height: 28px;
+                color: #ffffff;
+                background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+                border-style: none;
+                border-radius: 40px;
+                position: absolute;
+                left: 35%;
+                }   
+
+            
 
 
 
