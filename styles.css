@@ -5,8 +5,8 @@
 }
 
 body {
-    padding-top: 100px;
-    padding-left: 200px;
+    /* padding-top: 100px;
+    padding-left: 200px; */
     background-color: #f2f2f2;
     font-family: 'Plus Jakarta Sans', sans-serif;
     max-width: 100%;
@@ -16,7 +16,7 @@ body {
 #main-container {
     margin: auto;
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 1725px;
     background-color: #FFFFFF;
     overflow: hidden;
@@ -424,7 +424,7 @@ body {
 
 
      /*@desktop-active-mode*/
-    #desktop-up-test-button:hover {
+      #desktop-up-test-button:hover {
         color: #fff;
         cursor: pointer;
         background-color:#333;
